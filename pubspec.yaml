@@ -1,0 +1,33 @@
+name: yash_shop
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies: 
+  google_fonts: ^6.1.0
+  flutter_screenutil: ^5.9.0
+  font_awesome_flutter: ^10.6.0
+  cached_network_image: ^3.3.0
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.24.2
+  firebase_messaging: ^14.7.4
+  flutter_local_notifications: ^16.1.0
+  connectivity_plus: ^5.0.2
+  dio: ^5.4.0
+  loader_overlay: ^2.3.0
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+assets:
+  assets/images
+
